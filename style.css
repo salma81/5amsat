@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(68, 66, 61);
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100000;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+.right a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 45px;
+}
+.left p{
+    margin: 25px;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+.con{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.en{
+    border: 1px solid white;
+    width: 100px;
+    padding: 12px;
+}
+header{
+   background-image: url("hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+   background-size: cover;
+   height: 100%;
+   background-position: center;
+   width: 100%;
+   
+}
+.header h1 {
+    position: absolute;
+    top: 350px;
+    right: 350px;
+    font-size: 50px;
+}
+.header p{
+    position: absolute;
+    top: 440px;
+    right: 470px;
+    font-size: 30px;
+}
+.header form{
+    position: absolute;
+    top: 500px;
+    right: 338px;
+}
+.search{
+    width: 700px;
+    border: 1px solid #52b035;
+    padding: 25px;
+    direction: rtl;
+}
+.btn1{
+    background-color: #52b035;
+    color: white;
+    border: 1px solid #52b035;
+    padding: 16px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+.sec1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+.sec2{
+    display: flex;
+    height: 250px;
+    
+   
+}
+.sec2 div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 div img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: 10px;
+}
+.sec2 div p{
+    color: white;
+    font-size: 34px;
+}
+.sec3{
+    display: flex;
+    height: 250px;
+    
+   
+}
+.sec3 div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 div img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+.sec3 div p{
+    color: white;
+    font-size: 34px;
+}
+.sec4{
+    background-color: #eee;
+    height: 400px;
+   
+
+    
+}
+ h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.divvv{
+    display: flex;
+    margin-top:90px ;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  
+}
+.three{
+    background-color: white;
+    padding: 50px;
+    direction: rtl;
+    height: 200px;
+    margin: 10px;
+  
+
+}
+.th{
+    background-color: #52b035;
+   width: 40px;
+   height: 25px;
+   border-radius: 50%;
+   color: white;
+   text-align: center;
+   align-items: center;
+ 
+  
+}
+.three h1{
+    margin-top: -10px;
+}
+.three p{
+    margin-top: 10px;
+}
+.sec5 div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.sec5 div button{
+    color: #52b035;
+    background-color: white;
+    border: 1px solid #52b035;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 80px;
+}
+.sec5 div p{
+    font-size: 30px;
+    font-weight: 80px;
+}
+.sec6{
+    display: flex;
+    justify-content: space-around;
+}
+.sec6 div{
+    direction: rtl;
+    margin: 10px;
+    
+}
+.sec6 div i{
+    color: orange;
+    /* margin-top: 15px; */
+}
+.sec6 div p{
+    margin-top: 10px;
+}
+.sec6 div img{
+    width: 300px;
+}
+.sec7{
+    background-color: #eee;
+}
+.pp{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+}
+.sec7 details{
+    direction: rtl;
+    margin: 36px;
+}
+.sec7 details p{
+    margin-top: 16px;
+}
+.sec7 details summary{
+    font-size: 25px;
+}
+.sec7 details summary:hover{
+    color: #52b035;
+    cursor: pointer;
+}
+.sec8{
+    background-color: #222222;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.sec8 p{
+    color: white;
+    font-size: 30px;
+}
+.sec8 button{
+    color: white;
+    background-color: #52b035;
+    margin-top: 13px;
+    border: 1px solid #52b035;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sec5 button:hover{
+    background-color: #52b035;
+    color: white;
+}
+nav a:hover{
+    background-color: #eeeeeead;
+}
+.sec8 button:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.copy{
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.whats{
+    color: #52b035;
+    margin: 10px;
+    cursor: pointer;
+}
+.face{
+    color: blue;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+  
+  
